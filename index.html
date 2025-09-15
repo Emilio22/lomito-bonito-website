@@ -3,57 +3,102 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Lomito Bonito — Chilombian Foods</title>
-    <meta name="description" content="Lomito Bonito - Best empanadas near me in St. Louis, Missouri! Authentic Chilean & Colombian empanadas, premium sandwiches, and Chilombian flavors. Food truck & catering." />
-    <meta name="keywords" content="empanadas near me, empanadas St. Louis, Chilean empanadas Missouri, Colombian empanadas, food truck St. Louis, Chilean food Missouri, Colombian food, sandwiches Missouri, catering St. Louis, events Missouri, Chilombian cuisine, Latin food truck" />
-    <meta name="author" content="Lomito Bonito" />
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FoodEstablishment",
-      "name": "Lomito Bonito",
-      "description": "Authentic Chilean and Colombian empanadas and food truck in St. Louis, Missouri. Best empanadas near me with premium sandwiches and Chilombian flavors",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "St. Louis",
-        "addressRegion": "Missouri",
-        "addressCountry": "US"
-      },
-      "telephone": "+13143977053",
-      "email": "hello@lomitobonito.com",
-      "url": "https://emilio22.github.io/lomito-bonito-website/",
-      "servesCuisine": ["Chilean", "Colombian", "Latin American"],
-      "hasMenu": {
-        "@type": "Menu",
-        "hasMenuSection": [
-          {
-            "@type": "MenuSection",
-            "name": "Sandwiches",
-            "description": "Premium sandwiches served on homemade frika buns with French fries"
-          },
-          {
-            "@type": "MenuSection", 
-            "name": "Empanadas",
-            "description": "Authentic Chilean and Colombian empanadas"
-          },
-          {
-            "@type": "MenuSection",
-            "name": "Plates", 
-            "description": "Signature dishes like Chorrillana"
-          }
-        ]
-      },
-      "areaServed": {
-        "@type": "Country",
-        "name": "United States"
-      }
-    }
-    </script>
+  
+    <!-- Primary SEO -->
+    <title>Lomito Bonito — Chilean & Colombian Empanadas | St. Louis Food Truck</title>
+    <meta name="description" content="Authentic Chilean & Colombian empanadas, premium sandwiches, and Chilombian flavors. See our weekly schedule around St. Louis or book catering." />
+    <link rel="canonical" href="https://lomitobonito.com/" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta http-equiv="x-dns-prefetch-control" content="on" />
+  
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Lomito Bonito" />
+    <meta property="og:title" content="Lomito Bonito — Chilean & Colombian Empanadas | St. Louis Food Truck" />
+    <meta property="og:description" content="Authentic Chilean & Colombian empanadas, premium sandwiches, and Chilombian flavors. See our weekly schedule around St. Louis or book catering." />
+    <meta property="og:url" content="https://lomitobonito.com/" />
+    <meta property="og:image" content="https://lomitobonito.com/images/og-cover.jpg" />
+    <meta property="og:image:alt" content="Lomito Bonito food truck serving empanadas and sandwiches" />
+  
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lomito Bonito — Chilean & Colombian Empanadas | St. Louis Food Truck" />
+    <meta name="twitter:description" content="Authentic Chilean & Colombian empanadas, premium sandwiches, and Chilombian flavors. See our weekly schedule around St. Louis or book catering." />
+    <meta name="twitter:image" content="https://lomitobonito.com/images/og-cover.jpg" />
+  
+    <!-- Favicons (update paths as needed) -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+    <!-- Performance: preconnects first -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet" />
+  
+    <!-- Styles (relative path to avoid 404s) -->
     <link rel="stylesheet" href="./styles.css" />
+  
+    <!-- Structured Data: Business (Food Truck) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["FoodEstablishment", "FoodTruck"],
+      "@id": "https://lomitobonito.com/#identity",
+      "name": "Lomito Bonito",
+      "url": "https://lomitobonito.com/",
+      "description": "Authentic Chilean and Colombian empanadas and a St. Louis food truck serving premium sandwiches and Chilombian flavors.",
+      "telephone": "+13143977053",
+      "email": "hello@lomitobonito.com",
+      "image": "https://lomitobonito.com/images/og-cover.jpg",
+      "logo": "https://lomitobonito.com/images/logo.png",
+      "priceRange": "$$",
+      "servesCuisine": ["Chilean", "Colombian", "Latin American"],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "St. Louis",
+        "addressRegion": "MO",
+        "addressCountry": "US"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Greater St. Louis"
+      },
+      "sameAs": [
+        "https://www.instagram.com/yourhandle",
+        "https://www.facebook.com/yourpage",
+        "https://g.page/your-google-profile"
+      ],
+      "paymentAccepted": "Cash, Credit Card, Contactless",
+      "slogan": "Chilombian flavors on wheels",
+      "foundingDate": "2025",
+      "hasMenu": {
+        "@type": "Menu",
+        "name": "Lomito Bonito Menu",
+        "hasMenuSection": [
+          { "@type": "MenuSection", "name": "Sandwiches", "description": "Premium sandwiches served on homemade frika buns with French fries" },
+          { "@type": "MenuSection", "name": "Empanadas", "description": "Authentic Chilean and Colombian empanadas" },
+          { "@type": "MenuSection", "name": "Plates", "description": "Signature dishes like Chorrillana" }
+        ]
+      }
+    }
+    </script>
+  
+    <!-- Structured Data: Website -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://lomitobonito.com/#website",
+      "url": "https://lomitobonito.com/",
+      "name": "Lomito Bonito",
+      "inLanguage": "en-US",
+      "publisher": { "@id": "https://lomitobonito.com/#identity" }
+    }
+    </script>
   </head>
+  
   <body>
     <header class="site-header" id="top">
       <nav class="nav" aria-label="Primary">
@@ -79,7 +124,7 @@
           <div class="hero-content">
             <p class="tag">Chilombian Foods <span class="flags" aria-label="Chile and Colombia">🇨🇱🇨🇴</span> 😋</p>
             <h1 class="title">Lomito Bonito</h1>
-            <p class="subtitle">Best empanadas near me! Authentic Chilean and Colombian empanadas, premium sandwiches, and good vibes in St. Louis, Missouri.</p>
+            <p class="subtitle">Best empanadas in St. Louis! Authentic Chilean and Colombian empanadas, premium sandwiches, and good vibes in St. Louis, Missouri.</p>
             <p class="location-tag">Empanadas St. Louis • Chilean & Colombian food truck • Missouri catering</p>
             <div class="cta">
               <a class="btn btn-primary" href="#menu">See Menu</a>
@@ -94,7 +139,7 @@
       <section class="menu" id="menu">
         <div class="section-header">
           <h2>Menu</h2>
-          <p class="section-lead">Best empanadas near me in St. Louis! Authentic Chilean and Colombian empanadas with premium sandwiches and Latin street flavors.</p>
+          <p class="section-lead">Best empanadas in St. Louis! Authentic Chilean and Colombian empanadas with premium sandwiches and Latin street flavors.</p>
         </div>
         <div class="menu-grid">
           <article class="menu-card">
